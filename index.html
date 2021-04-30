@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wraper">
+        <h1 style="text-align: center;">Signup Form</h1>
+        <div class="details">
+            <h5>Username</h5>
+            <h5>Contact</h5>
+            <h5>Password</h5>
+        </div>
+        <div class="bulet">
+            <div>1
+                <i class="fas fa-check first"></i>
+            </div>
+            <div>2
+                <i class="fas fa-check second"></i>
+            </div>
+            <div>3
+                <i class="fas fa-check third"></i>
+            </div>
+        </div>
+        <div class="mainwraper">
+            <div class="main">
+                <div class="page slide">
+                    <label>Username</label>
+                    <input id="first" type="text" placeholder="Enter first name"/>
+                    <input id="second" type="text" placeholder="Enter last name"/>
+                    <button class="next">Next</button>
+                </div>
+                <div class="page">
+                    <label>Contact</label>
+                    <input id="email" required type="email" placeholder="Enter email address"/>
+                    <input id="number" type="number" placeholder="Enter number"/>
+                    <button class="prev1">Previous</button>
+                    <button class="next1">Next</button>
+                </div>
+                <div class="page">
+                    <label>Password</label> 
+                    <input id="password" type="password" placeholder="Enter your password"/>
+                    <input id="conpassword" type="password" placeholder="Enter your confirm password"/>
+                    <button class="prev2">Previous</button>
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+            <!-- <button class="submit">Submit</button> -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
